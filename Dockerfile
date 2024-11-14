@@ -11,5 +11,5 @@ WORKDIR /home/app
 
 COPY ./app /home/app
 
-#CMD [ "node", "/home/app/server.js" ]
-CMD ["npm", "start"]
+CMD [ "node", "/home/app/server.js" ]
+#CMD ["npm", "start"]
